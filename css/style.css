@@ -12,7 +12,15 @@
 }
 
 .margin_y_50{
-  margin: 50px 0; 
+  margin: 50px 0;
+}
+
+.text_center{
+  text-align: center;
+}
+
+.text_right{
+  text-align: right;
 }
 
 /* /class ulitity */
@@ -31,11 +39,16 @@ nav{
   line-height: 80px;
 }
 
+header nav .row > div:last-child i{
+  display: none;
+}
+
 a{
   text-decoration: none;
 }
 
 li{
+  list-style: none;
   display: inline-block;
 }
 
@@ -73,10 +86,43 @@ main #about{
   height: 500px;
 }
 
-
-
 /* /section about */
 
+/* section contact me */
 
+
+/* /section contact me */
 
 /* /main */
+
+/* footer */
+
+footer .top_footer{
+  background-color: lightblue;
+  padding: 50px 0;
+}
+
+footer .copy{
+  height: 80px;
+  line-height: 80px;
+  background-color: red;
+}
+
+
+/* /footer */
+
+/* media query sm */
+
+@media screen and (max-width: 768px){
+  header nav .row > div:last-child ul{
+    display: none;
+  }
+
+  header nav .row > div:last-child i{
+    display: block;
+    padding: 33px 20px;
+  }
+}
+
+
+/* /media query sm */
