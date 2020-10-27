@@ -5,6 +5,18 @@
   border: 1px solid red;
 }
 
+/* class ulitity */
+
+.pd_20{
+  padding: 20px;
+}
+
+.margin_y_50{
+  margin: 50px 0; 
+}
+
+/* /class ulitity */
+
 
 /* header */
 
@@ -37,8 +49,33 @@ li{
 
 
 /* main */
+/* section image */
+
+main #image{
+  text-align: center;
+}
+
+main #image .row > div{
+  margin: 20px 0;
+}
+
+main #image .card{
+  background: red;
+  height: 200px;
+}
+
+/* /section image */
+
+/* section about */
+
+main #about{
+  background-color: lightgreen;
+  height: 500px;
+}
 
 
+
+/* /section about */
 
 
 
