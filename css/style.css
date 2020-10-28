@@ -160,7 +160,7 @@ main #image h2{
   color: #2c3e50;
 }
 
-main #image .row > div{
+main #image .row .card{
   margin: 20px 0;
 }
 
@@ -182,14 +182,14 @@ main #image div.card{
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
+  display: none;
   transition: .5s ease;
   background-color: #1abc9ce6;
   border-radius: 10px;
 }
 
 .card:hover .overlay {
-  opacity: 1;
+  display: block;
 }
 
 .text_plus {
@@ -367,3 +367,9 @@ footer .row div:last-child a:hover{
 }
 
 /* /footer */
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  main #image .card img{
+    max-height: 249px;
+  }
+}
